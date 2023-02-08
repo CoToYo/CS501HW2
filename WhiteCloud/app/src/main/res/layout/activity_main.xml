@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="16dp">
+
+
+
+    <EditText
+        android:id="@+id/first_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first num here"/>
+
+    <EditText
+        android:id="@+id/second_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="second num here"/>
+
+
+    <Button
+        android:id="@+id/crime_date"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        tools:text="Wed Nov 14 11:56" />
+
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NaN"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
